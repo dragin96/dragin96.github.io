@@ -7,24 +7,27 @@ import {MyTable} from "./components/Table";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import shallowEqual from "react-redux/es/utils/shallowEqual";
+let intervalUpdate;
 
 export const App = () => {
     const dispatch = useDispatch();
     const tableData = useSelector(state => state.currency, shallowEqual);
     const [isUpdate, setIsUpdate] = useState(false);
-
+    const updateTime = 10000;
     if (!tableData.data && !tableData.isLoading) {
         dispatch(updateRequest());
     }
     const setUpdateInfo = (statusRequest) => {
         console.log('start interval');
-        const interval = setInterval(() => {
-            if (statusRequest && !tableData.isLoading) {
-                dispatch(updateRequest());
-            }
-        }, 10000);
-        if (!statusRequest) {
-            clearInterval(interval);
+        if (statusRequest){
+            intervalUpdate = setInterval(() => {
+                if (statusRequest && !tableData.isLoading) {
+                    dispatch(updateRequest());
+                }
+            }, updateTime);
+        }
+        else {
+            clearInterval(intervalUpdate);
         }
     };
 
