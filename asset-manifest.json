@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tabel-currency/static/css/main.2c891d92.chunk.css",
-    "main.js": "/tabel-currency/static/js/main.1d60fc54.chunk.js",
-    "main.js.map": "/tabel-currency/static/js/main.1d60fc54.chunk.js.map",
+    "main.js": "/tabel-currency/static/js/main.b4d3c337.chunk.js",
+    "main.js.map": "/tabel-currency/static/js/main.b4d3c337.chunk.js.map",
     "runtime-main.js": "/tabel-currency/static/js/runtime-main.fdd54516.js",
     "runtime-main.js.map": "/tabel-currency/static/js/runtime-main.fdd54516.js.map",
     "static/js/2.3d4a6a32.chunk.js": "/tabel-currency/static/js/2.3d4a6a32.chunk.js",
     "static/js/2.3d4a6a32.chunk.js.map": "/tabel-currency/static/js/2.3d4a6a32.chunk.js.map",
     "index.html": "/tabel-currency/index.html",
-    "precache-manifest.fa875716d3607ba5f6b765f93e463cac.js": "/tabel-currency/precache-manifest.fa875716d3607ba5f6b765f93e463cac.js",
+    "precache-manifest.12767d587a1e4454e9f30d4e330aca49.js": "/tabel-currency/precache-manifest.12767d587a1e4454e9f30d4e330aca49.js",
     "service-worker.js": "/tabel-currency/service-worker.js",
     "static/css/main.2c891d92.chunk.css.map": "/tabel-currency/static/css/main.2c891d92.chunk.css.map",
     "static/js/2.3d4a6a32.chunk.js.LICENSE.txt": "/tabel-currency/static/js/2.3d4a6a32.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fdd54516.js",
     "static/js/2.3d4a6a32.chunk.js",
     "static/css/main.2c891d92.chunk.css",
-    "static/js/main.1d60fc54.chunk.js"
+    "static/js/main.b4d3c337.chunk.js"
   ]
 }
